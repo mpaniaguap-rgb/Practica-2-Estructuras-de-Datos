@@ -6,14 +6,14 @@ import java.util.ArrayList;
  * - Todo nodo, excepto la raíz, tiene al menos ceil(m / 2) hijos.
  * - Los datos viven solo en las hojas, que están enlazadas entre sí.
  */
-public class ArbolBMas {
+public class Arbolbmas {
 
     // Atributos
     private final int orden;
     private NodoArbolBMas raiz;
 
     // Constructor
-    public ArbolBMas(int orden) {
+    public Arbolbmas(int orden) {
         if (orden < 3) {
             throw new IllegalArgumentException("El orden del árbol debe ser al menos 3");
         }
